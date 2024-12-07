@@ -1,0 +1,81 @@
+
+.wap {
+    background-color: #F3FFBF;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name, .name_text {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.content2 {
+    width: 400px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 1px solid red;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.content2_title {
+    text-align: center;
+}
+
+
+.content3_wap {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 450px;
+    margin: 10px auto;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    background-color: aliceblue;
+}
+
+.content3_wap :hover {
+    background-color: rgb(80, 237, 18);
+    color: red;
+}
+
+.content3_wap_left {
+    width: 100px;
+    height: auto;
+}
+
+.content3_wap_right {
+    margin-left: 10px;
+}
+
+.content3_wap_right_title {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.content3_wap_right_comment {
+    margin: 5px 0; 
+}
+
+.content3_wap_right_text p {
+    margin: 0;
+    text-align: left;
+}
+
+.bank_text {
+    font-size: 30px;
+}
