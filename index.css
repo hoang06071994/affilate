@@ -79,3 +79,17 @@
 .bank_text {
     font-size: 30px;
 }
+
+@media screen and (max-width: 400px) {
+    .wap {
+        padding-top: 20px;
+        width: 400px;
+    }
+    .content2 {
+        width: 390px;
+        box-sizing: border-box;
+    }
+    .content3_wap {
+        width: 390px;
+    }
+}
