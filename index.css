@@ -1,95 +1,68 @@
 
+p {
+    margin: 0;
+}
+body {
+    margin: 0;
+}
 .wap {
-    background-color: #F3FFBF;
-    width: 500px;
-    text-align: center;
+    width: 400px;
+    height: auto;
     margin: 0 auto;
+    background-color: rgba(232, 228, 163, 0.334);
+    padding: 5px;
 }
-
-.avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
-
-.name, .name_text {
-    margin-top: 0;
+.content1 {
+    text-align: center;
     margin-bottom: 10px;
 }
-
-.content2 {
-    width: 400px;
-    margin: 0 auto;
-    background-color: aliceblue;
-    border-radius: 20px;
-    border: 1px solid red;
-    text-align: left;
-    padding: 0 20px;
+.name {
+    color: red;
+    margin: 5px 0;
+    font-size: 18px;
 }
-
+.name_text {
+    color: rgb(30, 30, 239);
+    font-weight: 600;
+}
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.content2 {
+    border: 2px solid rgb(232, 137, 137);
+    border-radius: 10px;
+    padding: 8px;
+}
 .content2_title {
     text-align: center;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: rgb(7, 180, 56);
 }
-
-
-.content3_wap {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid red;
-    border-radius: 20px;
-    width: 450px;
-    margin: 10px auto;
-    padding: 20px;
+a {
     color: black;
     text-decoration: none;
-    background-color: aliceblue;
 }
-
-.content3_wap :hover {
-    background-color: rgb(80, 237, 18);
-    color: red;
+.content3_wap {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(209, 43, 99, 0.625);
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 5px;
 }
-
-.content3_wap_left {
-    width: 100px;
-    height: auto;
-}
-
-.content3_wap_right {
-    margin-left: 10px;
-}
-
 .content3_wap_right_title {
-    font-weight: bold;
+    color: rgb(13, 16, 189);
     font-size: 20px;
-    margin: 0;
+    text-align: center;
+    font-weight: 600;
 }
-
-.content3_wap_right_comment {
-    margin: 5px 0; 
+.content3_wap_left {
+    width: 80px;
+    margin-right: 5px;
 }
-
-.content3_wap_right_text p {
-    margin: 0;
-    text-align: left;
-}
-
-.bank_text {
-    font-size: 30px;
-}
-
-@media screen and (max-width: 400px) {
-    .wap {
-        padding-top: 20px;
-        width: 400px;
-    }
-    .content2 {
-        width: 390px;
-        box-sizing: border-box;
-    }
-    .content3_wap {
-        width: 390px;
-    }
+@media screen and (max-width: 390px)  {
+    
 }
